@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.5'
-
 gem 'sass-rails', '~> 4.0.2'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -16,20 +15,18 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-
 gem 'bootstrap-sass'
-
 gem 'paperclip', '~>3.0' 
 
 # dgem 'aws-sdk', '~>1.16'
 
-group: development, :test do
-	gem 'sqlite3'
+group :development, :test do
+     gem 'sqlite3'
 end
 
 group :production do
-	gem 'pg'
-	gem 'rails-12factor'
+     gem 'pg'
+     gem 'rails_12factor'
 end
 
 group :doc do
