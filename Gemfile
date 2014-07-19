@@ -17,8 +17,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.2.4'
 gem 'paperclip', github: 'thoughtbot/paperclip' 
-
-# gem 'aws-sdk', '~>1.16'
+gem 'aws-sdk', '~>1.20.0'
 
 group :development, :test do
      gem 'sqlite3'
